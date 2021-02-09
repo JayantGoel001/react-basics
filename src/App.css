@@ -45,3 +45,15 @@ h1{
     text-align: center;
     color: #ff9808;
 }
+ul{
+    margin-top: 50px;
+    align-items: center;
+    display: block;
+    background: black;
+}
+li{
+    text-align: center;
+    display: block;
+    color: white;
+    font-size: larger;
+}

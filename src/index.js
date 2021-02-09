@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Hello from './Hello'
+import ConditionalRendering from "./conditional-rendering";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -16,6 +17,10 @@ ReactDOM.render(
         <Hello name={"Jayant Goel"}/>
     </React.StrictMode>,
     document.getElementById('hello')
+);
+ReactDOM.render(
+    <ConditionalRendering/>,
+    document.getElementById('list')
 );
 
 reportWebVitals();
