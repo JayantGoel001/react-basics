@@ -22,7 +22,7 @@ class EventDemo extends Component {
             <div>
                 <h3>Counter : <span className="badge badge-warning">{this.state.count}</span></h3>
                 <button onClick={this.handleIncrement} className="btn btn-primary center-block">Increment Counter</button>
-                <button onClick={()=>this.handleIncrementPara(1)} className="btn btn-primary center-block m-1">Increment Counter</button>
+                <button onClick={()=>this.handleIncrementPara(1)} className="btn btn-primary center-block m-1">Increment Counter with log</button>
             </div>
         );
     }
