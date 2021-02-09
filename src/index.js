@@ -9,6 +9,7 @@ import EventDemo from "./Event Demo";
 import Person from "./Person";
 import StateDemo from "./state demo";
 import StyleDemo from "./style demo";
+import DynamicStyleDemo from "./Dynamic style demo";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -41,6 +42,10 @@ ReactDOM.render(
 ReactDOM.render(
     <StyleDemo/>,
     document.getElementById('style-demo')
+)
+ReactDOM.render(
+    <DynamicStyleDemo/>,
+    document.getElementById('dynamic-style-demo')
 )
 
 reportWebVitals();
