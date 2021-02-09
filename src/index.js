@@ -8,6 +8,7 @@ import ConditionalRendering from "./conditional-rendering";
 import EventDemo from "./Event Demo";
 import Person from "./Person";
 import StateDemo from "./state demo";
+import StyleDemo from "./style demo";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -36,6 +37,10 @@ ReactDOM.render(
 ReactDOM.render(
     <StateDemo/>,
     document.getElementById('state-demo')
+)
+ReactDOM.render(
+    <StyleDemo/>,
+    document.getElementById('style-demo')
 )
 
 reportWebVitals();
