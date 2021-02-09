@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Hello from './Hello'
 import ConditionalRendering from "./conditional-rendering";
 import EventDemo from "./Event Demo";
+import Person from "./Person";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -27,5 +28,9 @@ ReactDOM.render(
     <EventDemo/>,
     document.getElementById('event')
 );
+ReactDOM.render(
+    <Person/>,
+    document.getElementById('person')
+)
 
 reportWebVitals();
