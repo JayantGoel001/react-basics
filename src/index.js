@@ -15,7 +15,7 @@ ReactDOM.render(
     <React.StrictMode>
         <Hello />
     </React.StrictMode>,
-    document.getElementById('temp')
+    document.getElementById('hello')
 );
 
 reportWebVitals();
