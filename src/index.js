@@ -10,7 +10,14 @@ import Person from "./Person";
 import StateDemo from "./state demo";
 import StyleDemo from "./style demo";
 import DynamicStyleDemo from "./Dynamic style demo";
+import Nav from "./nav";
 
+ReactDOM.render(
+    <React.StrictMode>
+        <Nav />
+    </React.StrictMode>,
+    document.getElementById('nav')
+);
 ReactDOM.render(
     <React.StrictMode>
         <App />

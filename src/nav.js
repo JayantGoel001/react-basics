@@ -3,8 +3,9 @@ import About from "./about";
 import Contact from "./contact";
 import NotFound from "./NotFound";
 import App from "./App";
+import * as React from "react";
 
-class Nav {
+class Nav extends React.Component{
     render() {
         return(
         <div>
@@ -30,6 +31,7 @@ class Nav {
                 <Route component={NotFound}/>
             </Switch>
         </div>
-        )
+        );
     }
 }
+export default Nav;
