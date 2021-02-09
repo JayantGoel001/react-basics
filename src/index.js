@@ -6,17 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import Hello from './Hello'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-ReactDOM.render(
     <React.StrictMode>
-        <Hello />
+        <App />
     </React.StrictMode>,
-    document.getElementById('hello')
+    document.getElementById('root')
 );
 
 reportWebVitals();
