@@ -13,7 +13,7 @@ ReactDOM.render(
 );
 ReactDOM.render(
     <React.StrictMode>
-        <Hello />
+        <Hello name={"Jayant Goel"}/>
     </React.StrictMode>,
     document.getElementById('hello')
 );
