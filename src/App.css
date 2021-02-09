@@ -1,6 +1,9 @@
 .App {
     text-align: center;
 }
+body{
+    background: antiquewhite;
+}
 
 .App-logo {
     height: 40vmin;
@@ -41,7 +44,7 @@ hr{
     background: #ff9808;
     height: 5px;
 }
-h1{
+h1,h3{
     text-align: center;
     color: #ff9808;
 }
@@ -56,4 +59,13 @@ li{
     display: block;
     color: white;
     font-size: larger;
+}
+div{
+    margin: 10px auto;
+    display: block;
+    align-content: center;
+}
+.btn{
+    margin: 10px auto;
+
 }
