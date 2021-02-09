@@ -11,5 +11,11 @@ ReactDOM.render(
     </React.StrictMode>,
     document.getElementById('root')
 );
+ReactDOM.render(
+    <React.StrictMode>
+        <Hello />
+    </React.StrictMode>,
+    document.getElementById('temp')
+);
 
 reportWebVitals();
