@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Hello from './Hello'
 import ConditionalRendering from "./conditional-rendering";
+import EventDemo from "./Event Demo";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -21,6 +22,10 @@ ReactDOM.render(
 ReactDOM.render(
     <ConditionalRendering/>,
     document.getElementById('list')
+);
+ReactDOM.render(
+    <EventDemo/>,
+    document.getElementById('event')
 );
 
 reportWebVitals();
